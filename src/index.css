@@ -112,6 +112,7 @@ body {
   font-weight: 600;
   position: relative;
   overflow: hidden;
+  max-width: 200px
 }
 
 .cta-button::before {
@@ -548,6 +549,17 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+.mail {
+  color: var(--white);
+  font-weight: 900;
+  display: inline-block;
+  gap: 0.5rem;
+  transition: var(--transition);
+  text-decoration: underline;
+  position: relative;
+  padding: 0.5rem;
+}
+
 .contact-method {
   display: flex;
   align-items: center;
@@ -555,9 +567,32 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.number {
+  color: var(--white);
+  font-weight: 900;
+  display: inline-block;
+  gap: 0.5rem;
+  transition: var(--transition);
+  text-decoration: underline;
+  position: relative;
+  padding: 0.5rem;
+}
+
 .contact-icon {
   color: var(--neon-blue);
 }
+
+.loc{
+  color: var(--white);
+  font-weight: 600;
+  display: inline-block;
+  gap: 0.5rem;
+  transition: var(--transition);
+  text-decoration: none;
+  position: relative;
+  padding: 0.5rem;
+}
+
 
 /* Footer */
 .footer {

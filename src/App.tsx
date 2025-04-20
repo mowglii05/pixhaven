@@ -281,19 +281,19 @@ function App() {
             <div className="contact-info">
               <h3>Informations</h3>
               <div className="contact-method">
-                <Mail className="contact-icon" />
-                <p>contact@pixhaven.fr</p>
+              <Mail className='contact-icon'/>
+               <p><a className='mail' href="mailto:contact@pixhaven.com">contact@pixhaven.com</a></p>
               </div>
               <div className="contact-method">
-                <Phone className="contact-icon" />
-                <p>+33 1 23 45 67 89</p>
+              <Phone className='contact-icon'/>
+                <p><a className='number' href="tel: +33 7 63 54 08 62">+33 7 63 54 08 62</a></p>
               </div>
               <div className="contact-method">
                 <MapPin className="contact-icon" />
-                <p>Paris, France</p>
+                <p className='loc'>Divion, France</p>
               </div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914406081893!2d2.292292615674431!3d48.85837007928757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1647856687721!5m2!1sfr!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.374938134498!2d2.5000000000000004!3d50.50000000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd3f4e4e4e4e4e%3A0x4e4e4e4e4e4e4e4e!2s1%20Rue%20des%20Fr%C3%A8res%20de%20Lima%2C%2062460%20Divion!5e0!3m2!1sfr!2sfr!4v1647856687721!5m2!1sfr!2sfr"
                 width="100%"
                 height="300"
                 style={{ border: 0, borderRadius: '8px', marginTop: '2rem' }}
